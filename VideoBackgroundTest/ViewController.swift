@@ -31,10 +31,15 @@ class VideoViewController: UIViewController {
         label.center = CGPointMake(screenWidth/2, screenHeight/2)
         label.textColor = UIColor.whiteColor()
         
-        label.text = "⚡️\n awwwww\n yeah\n ⚡️"
+        label.text = "🌟\n awwwww\n yeah\n 👊"
         label.font = UIFont(name: label.font.fontName, size: 70)
         label.textAlignment = NSTextAlignment.Center
         label.numberOfLines = 4
+        label.shadowColor = UIColor.blackColor()
+        label.shadowOffset = CGSizeMake(0.0, 0.2)
+        label.layer.shadowOpacity = 0.55
+        label.layer.shadowRadius = 3
+        
         self.view.addSubview(label)
     }
     
