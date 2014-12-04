@@ -405,6 +405,7 @@
 				2B7B3C331A2FB7070006A6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B7B3C341A2FB7070006A6AA /* Build configuration list for PBXNativeTarget "VideoBackgroundTestTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				2B7B3C361A2FB7070006A6AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

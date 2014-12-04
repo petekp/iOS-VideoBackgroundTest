@@ -5,6 +5,10 @@ class VideoViewController: UIViewController {
     
     var moviePlayer:MPMoviePlayerController!
     
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,7 +34,6 @@ class VideoViewController: UIViewController {
         var label = UILabel(frame: CGRectMake(0, 0, screenWidth, screenHeight))
         label.center = CGPointMake(screenWidth/2, screenHeight/2)
         label.textColor = UIColor.whiteColor()
-        
         label.text = "🌟\n awwwww\n yeah\n 👊"
         label.font = UIFont(name: label.font.fontName, size: 70)
         label.textAlignment = NSTextAlignment.Center
